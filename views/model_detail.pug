@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1  #{car.name}
+
+  p #[strong Marque: ]
+    a(href=car.Product.url) #{car.Product.marque}
+  p #[strong Description:] #{car.description}
+  p #[strong Prix:] #{car.price} €
+  p #[strong Kilométrage:] #{car.km} €
+
+
+    
+
+ 
